@@ -1,0 +1,11 @@
+#Find the sum of three-digit number.
+
+num = int(input('Enter a three-digit number: '))
+
+num1 = num // 100
+num2 = (num // 10) % 10
+num3 = num % 10
+
+sum = num1 + num2 + num3
+
+print(f'Sum is {sum}')
